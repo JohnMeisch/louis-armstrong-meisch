@@ -1,0 +1,207 @@
+#aimg {
+	width: 200px;
+	height: 200px;
+}
+
+header ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+}
+
+.nav-bar img {
+	width: 30px;
+	height: 30px;
+}
+
+#home a{
+	color: white;
+	text-decoration: none;
+}
+
+#albums a{
+	color: white;
+	text-decoration: none;
+}
+
+#tours a{
+	color: white;
+	text-decoration: none;
+}
+
+#louis a{
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+#para {
+	font-family: 'Roboto Slab', serif;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.louisabout {
+	background-image: url("louistog.png");
+	padding: 50px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.louisatext {
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin-right: 30px;
+}
+
+.louiswrap {
+	width: 70%;
+	margin-left: 36%;
+}
+
+.albums {
+	background-color: #06070E;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.albums h1 {
+	width: 100%;
+	text-align: center;
+}
+
+.albums h2{
+	color: #016FB9;
+	font-size: 25px;
+}
+
+.singles {
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.singles h1 {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.singles a {
+	text-decoration: none;
+	color: white;
+}
+
+.singles h2 {
+	color: #016FB9;
+	font-size: 25px;
+}
+
+.tours {
+	background-image: url("backtour.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.tours h2{
+	text-decoration: none;
+	color: white;
+}
+
+#tours a:hover{
+	text-decoration: underline;
+}
+
+.tours h1 {
+	width: 100%;
+	text-align: center;
+}
+
+.tours h4{
+	font-size: 20px;
+}
+
+.toleft {
+	width: 30%;
+}
+
+.toright {
+	width: 30%;
+}
+
+h4 {
+	color: red;
+}
+
+ul {
+	list-style: none;
+}
+
+.form {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 20px
+	padding-bottom: 30px;
+}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+  width: 40%;
+}
+
+ input[type=submit] {
+  background-color: black;
+  border: 2px solid #ccc;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ input[type=submit]:hover {
+  background-color: white;
+  border: 2px solid #000000;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.form h5{
+	font-size: 20px;
+}
+
+.footer ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer img{
+	width: 30px;
+	height: 30px;
+}
